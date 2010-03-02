@@ -1,42 +1,42 @@
 Revision history for Perl extension CPAN::Packager
 
-0.33  FEB 28  03:21:00 2010
-    * Updated the user manual
-    * Updated the config for rpm
+0.33  Feb 28  03:21:00 2010
+    * Updated the user manual.
+    * Updated the config for rpm.
 
-0.32  FEB 28  01:40:00 2010
-    * Fixed topological sort
-    * Added the patch for perl.req to remove needles module dependencies
+0.32  Feb 28  01:40:00 2010
+    * Fixed topological sort.
+    * Added a patch for perl.req to remove unnecessary module dependencies.
 
-0.31  FEB 27  11:49:00 2010
-    * Updated user manual
+0.31  Feb 27  11:49:00 2010
+    * Updated the user manual.
 
-0.30  FEB 26  21:50:00 2010
-    * Fixed modulelist option (issue3)
-    * Parse META.yml with Parse::CPAN::Meta
-    * Removed more module dependencies to minimize dependencies
+0.30  Feb 26  21:50:00 2010
+    * Fixed modulelist option (issue3).
+    * Parse META.yml with Parse::CPAN::Meta.
+    * Removed more module dependencies to minimize dependencies.
 
-0.24  FEB 22  11:50:00 2010
-    * Fixed confliction check
-    * Removed CPANPLUS and Path::Class dependencies
-    * Changed default downloader from CPANPLUS to CPAN
+0.24  Feb 22  11:50:00 2010
+    * Fixed confliction check.
+    * Removed CPANPLUS and Path::Class dependencies.
+    * Changed default downloader from CPANPLUS to CPAN.
 
-0.23  FEB 05  01:00:00 2010
-    * Emited confliction warnings when installed modules are found.
-    * Emited warnings once
+0.23  Feb 05  01:00:00 2010
+    * Emit confliction warnings when installed modules are found.
+    * Emit warnings only once.
 
-0.22  FEB 04  23:00:00 2010
-    * Fixed dual-lived module checking 
+0.22  Feb 04  23:00:00 2010
+    * Fixed dual-lived module checking.
 
-0.21  FEB 04  23:45:00 2010
-    * Fixed help option of cpan-packager script
+0.21  Feb 04  23:45:00 2010
+    * Fixed help option of cpan-packager script.
 
-0.20  FEB 04  21:38:00 2010
-    * Fixed broken META.yml automatically
-    * Supported building  dual-lived module package
-    * Emited warning message when dual-lived modules causes conflict with 
-      the module in the system. 
-    * Major documendation updates (fhoxh++)
+0.20  Feb 04  21:38:00 2010
+    * Fixed broken META.yml automatically.
+    * Supported building dual-lived module packages.
+    * Emit warning message when installation of dual-lived modules cause
+      conflicts with modules already installed on the system.
+    * Major documendation updates. (fhoxh++)
  
 0.12  Jan 30  18:25:00 2010
     * Added documentation for patches to tarballs and additional broken META.yml fixes.
@@ -54,7 +54,7 @@ Revision history for Perl extension CPAN::Packager
     * Added support for 'Patch' RPM spec field.
     * Added support for RPM "Obsoletes". (fhoxh++)
     * Added support for 'Epoch' RPM spec field. (fhoxh++)
-    * Added support for overriding a .rpm or .deb's package name via the 
+    * Added support for overriding a .rpm or .deb's package name via the
       'pkg_name' in config. (fhoxh++)
 
 0.082 Jan 25  21:30:00 2010
