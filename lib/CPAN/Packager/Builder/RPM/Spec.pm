@@ -1,3 +1,13 @@
+# Copyright © 2009, 2010 Takatoshi Kitano.
+#
+# This library is free software; you can redistribute it and/or modify it under
+# the same terms as Perl 5.10.1. For more details, see the full text of the
+# licenses in the directory LICENSES.
+#
+# This program is distributed in the hope that it will be useful, but WITHOUT
+# ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+# FOR A PARTICULAR PURPOSE.
+
 package CPAN::Packager::Builder::RPM::Spec;
 
 # stealed from cpanflute2 because cpanflute2 isn't updated all recently.
