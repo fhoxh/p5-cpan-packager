@@ -16,8 +16,10 @@ use FindBin::libs;
 use CPAN::Packager::Script;
 use Log::Log4perl qw(:easy);
 
-main();
-exit;
+{
+	main();
+	exit;
+}
 
 sub main {
     run();
